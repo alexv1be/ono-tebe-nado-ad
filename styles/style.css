@@ -4,7 +4,6 @@
   align-items: center;
   padding: 92px 50px;
   font-size: 18px;
-  font-style: normal;
 }
 
 .header__logo {
@@ -41,6 +40,7 @@
 .address {
   max-width: 240px;
   line-height: 1.35;
+  font-style: normal;
 }
 
 .header__address {
@@ -265,7 +265,6 @@
 
 .footer__address {
   justify-self: start;
-  font-style: normal;
 }
 
 .footer__menu {
