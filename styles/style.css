@@ -129,14 +129,12 @@
 .lots__list {
   display: flex;
   gap: 25px;
+  list-style: none;
 }
 
 .lots li {
   width: 334px;
   height: 596px;
-  position: relative;
-  overflow: hidden;
-  margin-top: 0; /* Убрал лишний отступ */
 }
 
 .lots a {
@@ -196,7 +194,6 @@
   font-weight: bold;
   line-height: 1.2;
   text-transform: uppercase;
-  margin: 0;
   text-decoration: underline;
 }
 
@@ -216,7 +213,6 @@
 .lots__description {
   font-size: 20px;
   line-height: 1.2;
-  margin: 0;
   flex-grow: 1;
 }
 
@@ -228,12 +224,10 @@
 }
 
 .about {
-  background-color: white;
   width: 1052px;
   height: 595px;
   display: grid;
-  grid-template-columns: 334px 1fr;
-  align-items: center;
+  grid-template-columns: 320px 1fr;
   gap: 40px;
   margin: 120px 24px 180px 24px;
 }
@@ -264,9 +258,10 @@
   
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 82px;
 }
 
 .footer__address {
